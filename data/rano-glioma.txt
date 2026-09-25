@@ -1,0 +1,24 @@
+RANO Criteria for Glioma
+
+There are 4 levels to classify the progress/treatment response of gliomas.
+
+Complete Response (CR): 
+    (1) Complete disappearance of enhancing tumor volume 
+    (2) No new lesions (either measurable or non-measurable)
+
+Partial Response (PR): 
+    (1) 65% or more decrease in total enhancing tumor volume 
+    (2) No new enhancing lesions 
+    (3) No progression of non-measurable enhancing lesions into measurable enhancing lesions
+
+Progressive Disease (PD): 
+    (1) 40% or more increase in total enhancing tumor volume 
+    (2) Appearance of a new enhancing lesion 
+    (3) Clear progression of non-measurable lesions into enhancing lesions
+
+Stable Disease (SD): SD occurs when the patient does not qualify for SD, PR or PD and requires: 
+    (1) No progression (40% or more increase in enhancing tumor tumor volume) 
+    (2) No new enhancing lesions 
+    (3) No progression of non-measurable enhancing lesions into measurable enhancing lesions
+
+Legend: non-measurable lesion = enhancing tumor volume < 10 mm³, enhancing lesion: lesion with enhancing tumor core volume > 0

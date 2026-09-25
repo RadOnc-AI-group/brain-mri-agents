@@ -1,0 +1,18 @@
+{
+    "white matter": 3,
+    "right frontal lobe": 100,
+    "left frontal lobe": 101,
+    "right cingulate gyrus": 184,
+    "left cingulate gyrus": 185,
+    "right parietal lobe": 200,
+    "left parietal lobe": 201,
+    "right temporal lobe": 300,
+    "left temporal lobe": 301,
+    "right occipital lobe": 400,
+    "left occipital lobe": 401,
+    "right insula": 500,
+    "left insula": 501,
+    "brainstem": 800,
+    "corpus callosum": 850,
+    "cerebellum": 900
+}

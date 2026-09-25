@@ -1,0 +1,40 @@
+__pycache__
+*/__pycache__
+bratsmets-test
+playground
+outputs
+eval_outputs
+*.ipynb
+*.png
+deneme.py
+*.sh
+*.nii.gz
+data/*.txt
+data/*.nii*
+tools/nnunetv2
+imaging-*
+*.csv
+data/old-cases
+guideline-data
+self-evaluation/
+.agents
+
+# Virtual environments
+.env/
+.venv/
+
+# Secrets and credentials
+api_keys.yaml
+
+# Logs
+*.log
+
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Logs and runtime files
+*.log
+agent_output.log

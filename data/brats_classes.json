@@ -1,0 +1,8 @@
+{
+    "non-enhancing tumor": 1, 
+    "edema": 2, 
+    "enhancing tumor": 3,
+    "resection cavity": 4,
+    "tumor core": [1,3],
+    "whole tumor": [1,2,3]
+}

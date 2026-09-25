@@ -1,0 +1,9 @@
+{
+  "<patient_id>": {
+    "t1": "<path_to_t1.nii.gz>", 
+    "t1c": "<path_to_t1c.nii.gz>",
+    "t2": "<path_to_t2.nii.gz>",
+    "flair":  "<path_to_flair.nii.gz>",
+    "skullstripped": true
+  }
+}

@@ -1,0 +1,11 @@
+# API Keys & Tokens
+# Fill these with your actual keys
+OPENAI_API_KEY: ""
+GITHUB_TOKEN: ""
+GEMINI_API_KEY: ""
+CLAUDE_API_KEY: ""
+
+# Weights & Biases / Weave Configuration
+# WANDB_API_KEY: ""   # Optional if already logged in via `wandb login`
+WANDB_ENTITY: ""      # W&B username or organization name (leave empty for your default account)
+WANDB_PROJECT: ""     # Optional custom project name (leave empty for default 'brain-agent-task<task>')
