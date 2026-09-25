@@ -1,11 +1,9 @@
 __pycache__
 */__pycache__
-bratsmets-test
 playground
 outputs
 eval_outputs
 *.ipynb
-*.png
 deneme.py
 *.sh
 *.nii.gz
@@ -14,7 +12,6 @@ data/*.nii*
 tools/nnunetv2
 imaging-*
 *.csv
-data/old-cases
 guideline-data
 self-evaluation/
 .agents

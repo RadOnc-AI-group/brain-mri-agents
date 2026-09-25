@@ -16,15 +16,11 @@ def setup(task, agent_type, llm_model, temperature=0.0, filter_cases_file=None):
     os.environ["TEMPERATURE"] = str(temperature)  
     from agent_zoo import (
         analysing_orchestrator_w_regcheck,
-        orchestrator_w_regcheck,
         single_agent_w_regcheck,
         analysing_orchestrator_w_regcheck_handoffs,
     )
-
     if agent_type == "single":
         agent = single_agent_w_regcheck
-    elif agent_type == "orchestrator":
-        agent = orchestrator_w_regcheck
     elif agent_type == "as_tools":
         agent = analysing_orchestrator_w_regcheck
     elif agent_type == "handoffs":

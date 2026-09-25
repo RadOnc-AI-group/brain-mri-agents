@@ -138,5 +138,4 @@ analysing_orchestrator_w_regcheck = Agent(
 segmentation_agent_w_regcheck.handoffs = [preprocessing_agent_w_regcheck, analysing_orchestrator_w_regcheck]
 preprocessing_agent_w_regcheck.handoffs = [segmentation_agent_w_regcheck, analysing_orchestrator_w_regcheck]
 
-analysing_orchestrator = analysing_orchestrator_w_regcheck
 

@@ -75,5 +75,3 @@ single_agent_w_regcheck = Agent(
     model_settings=ModelSettings(temperature=temperature,) if model not in ["gpt-5-mini"] else ModelSettings(),
 )
 
-single_agent = single_agent_w_regcheck
-

@@ -23,7 +23,6 @@ def setup(agent_type: str, llm_model: str, temperature: float = 0.0, task: int =
 
     from agent_zoo import (
         analysing_orchestrator_w_regcheck,
-        orchestrator_w_regcheck,
         single_agent_w_regcheck,
         analysing_orchestrator_w_regcheck_handoffs,
     )
@@ -161,7 +160,7 @@ if __name__ == "__main__":
     parser.add_argument("--patient-files-json", type=str, default="patient_files.json", help="Path to JSON file containing patient MRI file paths (default: patient_files.json)")
     parser.add_argument("--agent-type", type=str, default="single", help="Type of agent to use", choices=["single", "as_tools", "handoffs"])
     parser.add_argument("--prompt", type=str, default=None, help="Initial clinical prompt/question (if omitted, you will be prompted interactively)")
-    parser.add_argument("--llm", type=str, default="gpt-5.4", help="LLM model to use")
+    parser.add_argument("--llm", type=str, default="gpt-5.4-mini", help="LLM model to use")
     parser.add_argument("--temperature", type=float, default=0.0, help="Temperature for agent LLM responses")
     parser.add_argument("--task", type=int, default=None, help="Optional task identifier")
     parser.add_argument("--no-weave", action="store_true", help="Disable Weave tracking for this run")
@@ -303,7 +302,7 @@ if __name__ == "__main__":
     if history:
         out_record = {
             "patient_names": [p.name for p in patients],
-            "patient_files": str(args.patient_files),
+            "patient_files": str(args.patient_files_json),
             "agent_type": args.agent_type,
             "llm": args.llm,
             "initial_prompt": user_prompt,
