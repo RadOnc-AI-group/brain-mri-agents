@@ -29,8 +29,6 @@ def setup(agent_type: str, llm_model: str, temperature: float = 0.0, task: int =
 
     if agent_type == "single":
         agent = single_agent_w_regcheck
-    elif agent_type == "orchestrator":
-        agent = orchestrator_w_regcheck
     elif agent_type == "as_tools":
         agent = analysing_orchestrator_w_regcheck
     elif agent_type == "handoffs":

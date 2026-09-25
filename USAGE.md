@@ -6,21 +6,21 @@
 
 ## 🧠 Overview
 
-This guide provides detailed instructions on running interactive neuroimaging analysis sessions (`weave_single.py`), configuring custom patient input scans (`patient_files.json`), and executing batch benchmark evaluations (`weave_evaluation.py`).
+This guide provides detailed instructions on running interactive neuroimaging analysis sessions (`run_single.py`), configuring custom patient input scans (`patient_files.json`), and executing batch benchmark evaluations (`weave_evaluation.py`).
 
 ---
 
-## ⚙️ Interactive Single-Session (`weave_single.py`)
+## 🤖 Interactive Single-Session (`run_single.py`)
 
 Run an interactive multi-agent session on your MRI scans:
 
 ```bash
-python weave_single.py --patient-files-json patient_files.json --agent-type as_tools --llm gpt-5.4
+python run_single.py --patient-files-json patient_files.json --agent-type as_tools --llm gpt-5.4
 ```
 
 ### 1. Input Configuration: `patient_files.json`
 
-`weave_single.py` reads scan paths and imaging metadata from a JSON configuration file (default: `patient_files.json`). The file maps unique patient identifiers (`<patient_name>`) to their scan paths and properties. Fill the file with the desired image paths from your work directory.
+`run_single.py` reads scan paths and imaging metadata from a JSON configuration file (default: `patient_files.json`). The file maps unique patient identifiers (`<patient_name>`) to their scan paths and properties. Fill the file with the desired image paths from your work directory.
 
 #### Schema
 

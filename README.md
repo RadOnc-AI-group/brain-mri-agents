@@ -77,15 +77,15 @@ WANDB_PROJECT: "brain-mri-agents"
 
 Detailed usage guides, input file specifications, CLI arguments, and interactive session commands are available in the **[Usage Guide (USAGE.md)](USAGE.md)**.
 
-### 1) Interactive Single-Session (`weave_single.py`)
+### 🤖 Interactive Single-Session (`run_single.py`)
 
 Run an interactive multi-agent session in your terminal. Place paths to your desired MRI scans in `patient_files.json`:
 
 ```bash
-python weave_single.py --patient-files-json patient_files.json --agent-type as_tools --llm gpt-5.4
+python run_single.py --patient-files-json patient_files.json --agent-type as_tools --llm gpt-5.4
 ```
 
-### 2) Batch Benchmark Evaluation (`weave_evaluation.py`)
+### 📊 Batch Benchmark Evaluation (`weave_evaluation.py`)
 
 Evaluate agents across our standard benchmark datasets with [Weights & Biases Weave](https://wandb.ai/site/weave) logging:
 
