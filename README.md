@@ -46,6 +46,16 @@ Sync all project dependencies using `uv`:
 uv sync
 ```
 
+### 4. Pull Segmentation Docker Images
+Pre-pull and tag all required Docker images using the provided script (note: requires ~140 GB disk space and will take some time):
+
+```bash
+bash docker_pull_segmenters.sh
+```
+
+> [!NOTE]
+> For SynthSeg, if the container pull from `ghcr.io` fails or you wish to build it manually from source, follow the instructions in [synthseg/README.md](synthseg/README.md).
+
 ---
 
 ## 🔑 Configuration & API Keys
